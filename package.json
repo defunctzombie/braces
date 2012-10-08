@@ -1,0 +1,26 @@
+{
+  "name": "braces",
+  "version": "0.0.0",
+  "description": "ctemplate and mustache inspired templates",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.6.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/braces.git"
+  },
+  "keywords": [
+    "template",
+    "braces"
+  ],
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT"
+}
