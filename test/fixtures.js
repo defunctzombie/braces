@@ -41,7 +41,7 @@ var root = path.join(__dirname, 'fixtures');
 
     // compare string generated version to expected
     var func = eval('(' + template.toString() + ')');
-    var acutal = func.call(locals);
+    var acutal = func(locals);
     assert.equal(actual, expected);
   });
 });
